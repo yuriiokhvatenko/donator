@@ -1,0 +1,30 @@
+.hero {
+
+    &__title{
+        width: 563px;
+        color: #252525;
+
+        font-family: 'Nexa Bold';
+        @include font(700, 65px, 65px);
+    }
+
+    &__accent{
+        color: #FF5D24;
+    }
+
+    &__text{
+        width: 466px;
+        color: #252525;
+
+        font-family: 'Now';
+        @include font(500, 18px, 22px);
+    }
+
+    &__text-block{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 53px;
+    }
+
+}
